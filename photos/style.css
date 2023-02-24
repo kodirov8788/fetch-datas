@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+  img{
+    width: 100%;
+  }
+  a img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+  }

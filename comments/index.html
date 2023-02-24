@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        border: 2px solid blue;
+        width: 100%;
+        color: aqua;
+        text-align: center;
+        font-size: 22px;
+      }
+      button a img{
+        width: 40px;
+        height: 40px;
+      }
+      button{
+        position: absolute;
+        right: 50px;
+        top: 20px;
+        border: none;
+        background-color: white;
+      }
+
+      tr {
+        height: 30px;
+      }
+      /* even juft */
+      tr:nth-child(even) {
+        background-color: darkblue;
+      }
+      /*  od   tog'    */
+      tr:nth-child(odd) {
+        background: black;
+      }
+    </style>
+  </head>
+  <body>
+    <button>
+      <a href="../index.html"><img src="../user/x.png" alt="" /></a>
+    </button>
+    <h1>Table</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>№</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Body</th>
+        </tr>
+      </thead>
+
+      <tbody></tbody>
+    </table>
+    <script src="./app.js"></script>
+  </body>
+</html>
